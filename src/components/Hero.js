@@ -47,7 +47,7 @@ const Hero = () => {
     },
   ];
   return (
-    <Container maxW="6xl" marginTop={[12, 12, 10]}>
+    <Container maxW="6xl" marginTop={[12, 12, 20]}>
       <Flex justifyContent="space-between" alignItems="center">
         <Box width={["100%", "100%", "100%", "50%"]}>
           <Heading
@@ -82,6 +82,7 @@ const Hero = () => {
               height={["38px", "38px", "44px", "55px"]}
               border="none"
               _focus={{}}
+              placeholder="Enter your work email..."
             />
             <Button
               width={[100, 100, 150]}
@@ -100,7 +101,7 @@ const Hero = () => {
           <Image src={Apps} width="100%" />
         </Box>
       </Flex>
-      <Container marginTop={[10, 10, 20]}>
+      <Container marginTop={[10, 10, 16]}>
         <Text color="white" textAlign="center" fontSize={[14, 14, 14, 16]}>
           Thousand of teams worldwide are using{" "}
           <span style={{ color: "#FFB444" }}>drago!</span>
